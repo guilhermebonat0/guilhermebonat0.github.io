@@ -1,0 +1,90 @@
+
+header{ /** Classe para personalização do Header */
+    background-color: rgb(21, 52, 87);
+}
+
+
+.cabecalho{ /** Classe para personalização do cabeçalho */  
+        padding: 3px 5px;
+}
+
+.logo{ /** Classe para inserção da logo */
+    width: 72px;
+    height: 70px;
+    float: left;
+    background: url(../img/icon-frtend.png) center center/72px no-repeat; /** Adicionando o Icone como BackGround */
+    font-size: 0pt; /** Definindo tamanho da fonte para não aparecer o texto */
+    float: inline-start;
+}
+
+.txtCabecalho{ /** Classe para personalização do texto ao lado do logo "Guilherme Bonato" */
+    font-size: 28px;
+    color: #FFF;
+    font-weight: bold;
+    padding: 3px 5px;
+    font-family: 'Inter', sans-serif
+
+}
+
+.txt2Cabecalho{ /** Classe para personalização do texto ao lado do logo "Softare Developer" */
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    padding: 2px 5px;
+
+}
+
+.sub{ /** Classe para formatação de textos secundários */
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: #FFF;
+    padding: 2px 5px;
+}
+
+.menu{ /** Classe para ajuste de menu */
+    text-align: right;
+
+}
+
+.itens{ /** Classe para ajuste de itens pertencentes ao menu */
+    font-size: 17px;
+    color:  rgb(255, 255, 255);   
+    display: inline;
+    padding: 3px 10px;
+    border: 1px solid rgb(21, 52, 87);
+    background: rgb(21, 52, 87)
+}
+
+.itens:hover{ /** Classe para personalização quando mouse sobre os itens do menu */
+    color: rgb(0, 110, 201);
+    border: 1px solid #153457;
+    width: 1.5px;
+    
+}
+
+main{ /** Classe para personalização do main */
+    background-color: rgb(23, 56, 99)  ;
+
+}   
+
+
+
+.sobre-titulo{ /** Classe para personalização dos titulos dos textos de informação */
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif
+}
+
+.sobre-descricao{/** Classe para formatação de textos sobre minhas informações */
+    display: block;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 23px;
+    color: rgb(23, 56, 99);
+    font-family: 'Oswald', sans-serif;
+    background-color: #CCCCCC;
+}
